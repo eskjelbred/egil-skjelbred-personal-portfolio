@@ -1,0 +1,57 @@
+{
+    "name": "personal-portfolio",
+    "version": "1.0.0",
+    "homepage": "https://eskjelbred-portfolio.herokuapp.com/",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/react": "^13.2.0",
+        "@testing-library/user-event": "^13.5.0",
+        "axios": "^0.27.2",
+        "bootstrap": "^5.1.3",
+        "emailjs-com": "^3.2.0",
+        "firebase": "^9.9.0",
+        "moment": "^2.29.4",
+        "moment-timezone": "^0.5.34",
+        "node-sass": "^7.0.1",
+        "react": "^18.1.0",
+        "react-bootstrap": "^2.4.0",
+        "react-dom": "^18.1.0",
+        "react-firebase-hooks": "^5.0.3",
+        "react-google-recaptcha": "^2.1.0",
+        "react-moment": "^1.1.2",
+        "react-router-dom": "^6.3.0",
+        "react-scripts": "5.0.1",
+        "serve": "^14.0.1",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "dev": "react-scripts start",
+        "start": "serve -s build",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "heroku-postbuild": "npm run build"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "gh-pages": "^5.0.0"
+    }
+}

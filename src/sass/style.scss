@@ -1,0 +1,10 @@
+// import bootstrap styles
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Theming the bootstrap styles
+@import "./partials/theming";
+
+// Custom css
+@import "./partials/buttons";
+@import "./partials/portfolioCard";
+@import "./partials/tabs";

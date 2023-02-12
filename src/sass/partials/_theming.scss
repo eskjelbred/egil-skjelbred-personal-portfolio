@@ -1,0 +1,53 @@
+/* 
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger, 
+    "light": $light,
+    "dark": $dark,
+); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $light;
+    font-family: "Montserrat", sans-serif;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: $dark;
+}
+
+a {
+    color: #fe7f2d;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+}
+
+.text-cta {
+    color: #fe7f2d;
+}
+
+a {
+    cursor: grab;
+}
