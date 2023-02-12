@@ -1,6 +1,7 @@
-# egil-skjelbred-project-exam
+# egil-skjelbred-personal-portfolio
 
-![image](Skjermbilde 2023-02-12 kl. 22.50.50.png)
+![image](./Skjermbilde%202023-02-12%20kl.%2022.50.50.png)
+
 
 Create a personal portfolio webpage that lists the 3 projects as cards.
 
